@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bt.css">
+</head>
+<body>
+    <div class="fullcontainer">
+    <div  id="container" class="container">
+    <form id="form">
+        <table>
+            <tr>
+                <td><label>Họ và tên</label></td>
+                <td> <input type="text" name="tenedit" placeholder="vui lòng nhập họ tên"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td> <input  type="email" name="emailedit" placeholder="vui lòng nhập email"></td>
+            </tr>
+            <tr>
+                <td><label>Số điện thoại</label></td>
+                <td><input name="phoneedit" placeholder="vui lòng nhập số điện thoại"></td>
+            </tr>
+            <tr>
+                <td><label>Quê quán</label></td>
+                <td><input name="diachiedit" placeholder="vui lòng nhập quê quán"></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính</label></td>
+                <td> <input name="gioitinhedit" value="nam" type="radio"  >nam
+                    <input name="gioitinhedit" value="nu" type="radio" >nữ</td>
+                  
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>lưu lại</button></td>
+            </tr>
+        </table>
+       
+    </form>
+</div>
+<div>
+    <h3>Danh sách học viên</h3>
+    <label>Tìm kiếm tên học viên:</label><input type="search" id="search" name="seach"><button id="btns">seach</button>
+    <table id="table" class="table">
+      <!-- <tr>
+        <td>#</td>
+        <td>Họ tên</td>
+        <td>Email</td>
+        <td>Điện thoại</td>
+        <td>Địa chỉ</td>
+        <td>Gender</td>
+        <td>Hành động</td>
+        <td rowspan="${data.length}"><button></button></td>
+      </tr>
+      <tr>
+        <td>#</td>
+        <td>Họ tên</td>
+        <td>Email</td>
+        <td>Điện thoại</td>
+        <td>Địa chỉ</td>
+        <td>Gender</td>
+        <td><a href="#">edit</a><b >|</b><a href="">delete</a></td>
+        <td>Sắp xếp</td>
+      </tr> -->
+    </table>
+</div>
+</div>
+
+<script src="bt.js"></script>
+</body>
+</html>
